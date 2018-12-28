@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+<!--header-->
+<header class="clearfix">
+    <a href="javacript:;" class="logo"></a>
+    <a href="javacript:;" class="menu"></a>
+</header>
+<!--banner-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url('images/banner1.png')"></div>
+        <div class="swiper-slide" style="background-image: url('images/banner2.png')"></div>
+        <div class="swiper-slide" style="background-image: url('images/banner3.png')"></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+
+
+</div>
+<!--allclass-->
+<div class="allclass">
+    <h3 class="clearfix">
+        <div class="book"></div>
+        <span>全部课程</span>
+    </h3>
+    <ul class="classlists">
+        <li>
+            <a href="javascript:;">
+                <div class="classcover"></div>
+                <div class="classtext">
+                    <h4>vue.js从理论精讲到实战课程</h4>
+                    <p>￥5000</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <div class="classcover"></div>
+                <div class="classtext">
+                    <h4>vue.js从理论精讲到实战课程</h4>
+                    <p>￥5000</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <div class="classcover"></div>
+                <div class="classtext">
+                    <h4>vue.js从理论精讲到实战课程</h4>
+                    <p>￥5000</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <div class="classcover"></div>
+                <div class="classtext">
+                    <h4>vue.js从理论精讲到实战课程</h4>
+                    <p>￥5000</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <div class="classcover"></div>
+                <div class="classtext">
+                    <h4>vue.js从理论精讲到实战课程</h4>
+                    <p>￥5000</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <div class="classcover"></div>
+                <div class="classtext">
+                    <h4>vue.js从理论精讲到实战课程</h4>
+                    <p>￥5000</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <div class="classcover"></div>
+                <div class="classtext">
+                    <h4>vue.js从理论精讲到实战课程</h4>
+                    <p>￥5000</p>
+                </div>
+            </a>
+        </li>
+
+    </ul>
+</div>
+
+<!--footer-->
+<ul class="footer clearfix">
+    <li class="current">
+        <a href="javascript:; " class="indexicon">
+            <div class="icon"></div>
+            <p class="icontext">首页</p>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:; " class="classicon">
+            <div class="icon"></div>
+            <p class="icontext">我的课程</p>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:; " class="centericon">
+            <div class="icon"></div>
+            <p class="icontext">个人中心</p>
+        </a>
+    </li>
+    <li></li>
+    <li></li>
+</ul>
+
+</body>
+</html>
+<script src="js/swiper.min.js"></script>
+<script>
+
+    function refreshRem() {
+        var desW = 640,
+            winW = document.documentElement.clientWidth||document.body.clientWidth;
+        ratio = winW / desW;
+        document.documentElement.style.fontSize = ratio * 100 + 'px';
+    }
+    refreshRem();
+    window.addEventListener('resize', refreshRem);
+
+</script>
+<script>
+
+    window.onload = function(){
+        // var mySwiper = new Swiper ('.swiper-container', {
+        //     loop: true, // 循环模式选项
+        //     autoplay:true,
+        //
+        //     // 如果需要分页器
+        //     pagination: {
+        //         el: '.swiper-pagination',
+        //     }
+
+
+
+
+        //})
+    }
+
+
+
+</script>

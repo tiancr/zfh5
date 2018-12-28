@@ -1,0 +1,147 @@
+html{
+    font-size:100px;
+}
+body{
+    background-color: #f8f8f8;
+}
+header{
+    height:1.12rem;
+    background:#2a2a2a;
+}
+.logo{
+    width:2.1rem;
+    height:.62rem;
+    background:url("../images/logo.png") center center no-repeat;
+    background-size:cover;
+    float:left;
+    margin-top:.25rem;
+    margin-left:.16rem;
+}
+.menu{
+    width:.36rem;
+    height:.32rem;
+    background:url("../images/menu.png") center center no-repeat;
+    background-size:cover;
+    float:right;
+    margin-top:.40rem;
+    margin-right:.23rem;
+}
+.swiper-container {
+    width: 100%;
+    height: 3.43rem;
+}
+.swiper-container .swiper-slide{
+    background-size:cover;
+}
+.allclass{
+    padding:.33rem .17rem 0;
+    box-sizing:border-box;
+    margin-bottom:1.83rem;
+}
+.allclass h3{
+    height:.35rem;
+    margin-bottom: .36rem;
+}
+.allclass h3 .book{
+    width:.29rem;
+    height:.35rem;
+    background:url("../images/book.png") center center no-repeat;
+    background-size:cover;
+    float:left;
+}
+.allclass h3>span{
+    float:left;
+    font-size:.26rem;
+    color:#3b3b3b;
+    margin-left:.1rem
+}
+.classlists li{
+    border-radius:.1rem;
+    box-shadow: 0rem .01rem .20rem rgba(0,0,0,.3);
+    overflow:hidden;
+    margin-bottom:.4rem;
+}
+.classlists .classcover{
+    height:2.79rem;
+    background:url("../images/vue.png") center center no-repeat;
+    background-size:cover;
+
+}
+.classtext{
+    height:1.46rem;
+    background:#fff;
+}
+
+.classtext h4{
+    font-size:.31rem;
+    color:#777;
+    text-align: center;
+    margin-top:.33rem;
+    margin-bottom:.24rem;
+    font-weight:400;
+}
+.classtext p{
+    color:#ed3a3a;
+    font-size:.28rem;
+    font-weight:400;
+    text-align: center;
+}
+.footer{
+    width:100%;
+    height:1.07rem;
+    border-top:.01px solid #d5d5d5;
+    position:fixed;
+    left:0;
+    bottom:0;
+    background:#fff;
+}
+.footer li{
+    width:33.33%;
+    height:1.07rem;
+    float:left;
+
+}
+.footer li a{
+    display:block;
+    color:#d5d5d5;
+}
+.indexicon .icon{
+    width:.46rem;
+    height:.32rem;
+    background:url("../images/index.png") center center no-repeat;
+    background-size:cover;
+    margin:0.2rem auto .13rem;
+}
+.icontext{
+    text-align: center;
+    font-size:.16rem;
+}
+
+.classicon .icon{
+    width:.4rem;
+    height:.39rem;
+    background:url("../images/class.png") center center no-repeat;
+    background-size:cover;
+    margin:0.17rem auto .13rem;
+
+}
+.centericon .icon{
+    width:.36rem;
+    height:.36rem;
+    background:url("../images/index.png") center center no-repeat;
+    background-size:cover;
+    margin:0.17rem auto .13rem;
+}
+.footer li:nth-child(1).current .icon{
+    background-image:url("../images/index2.png");
+}
+.footer li:nth-child(2).current .icon{
+    background-image:url("../images/class2.png");
+}
+.footer li:nth-child(3).current .icon{
+    background-image:url("../images/center2.png");
+}
+
+.footer .current a{
+    color:#188AE4;
+}
